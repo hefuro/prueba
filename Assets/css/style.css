@@ -11,3 +11,39 @@ p{
 .bg-color{
 	background: #008080;
 }
+
+.color{
+	color: #008080;
+}
+header {
+	background-image: url("../img/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	padding-bottom: 10rem;
+	height: 35rem;
+}
+.mas-abajo{
+	margin-top: 5rem;
+}
+.hero{
+	margin-top: 100px;
+}
+.fuente-1{
+	font-family: 'Shadows Into Light';
+	color: #008080;
+	text-shadow: 4px 4px 4px #000000;
+}
+.fuente-2{
+	font-family: 'Amatic SC';
+	font-size: 1.5rem;
+}
+.fuente-3{
+	font-family: 'Amatic SC';
+	font-size: 4rem;
+}
+
+.fuente-4{
+	font-family: 'Amatic SC';
+	font-size: 2.5rem;
+}
