@@ -49,4 +49,28 @@ header {
 }
 .separador{
 	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
+.center {
+       text-align: center;
+}
+.center > div, .center > table /* insert any other block-level elements here */ {
+       margin-left: auto;
+       margin-right: auto;  
+}
+div a{
+	color: #fff;
+	margin: 0px 20px;
+}
+.porte{
+	height: 2rem;
+}
+.contene-1{
+	width: 60%;
+	padding-bottom: 5rem;
+}
+.maspadding{
+	padding-top: 6rem;
+}
+
+
