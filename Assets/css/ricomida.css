@@ -1,0 +1,56 @@
+body{
+	font-family: 'lobster', sans-serif;
+	font-family: 'Cabin', sans-serif;
+}
+.lobster{
+	font-family: 'lobster', sans-serif;
+	font-size: 37px;
+}
+.nav-link{
+	font-weight: 400;
+}
+
+.text-1{
+	font-size: 40px
+}
+.text-2{
+	font-size: 20px;
+}
+.text-3{
+	font-size: 16px;
+}
+.text-4{
+	font-size: 23px;
+}
+.ancho{
+	width: 200px;
+	margin-left: 0;
+}
+hr {
+    border: none;
+    height: 1px;
+    color: #373A3C;
+    background-color: #333;
+}
+.alto{
+	height: 1.3rem;
+	margin-bottom: 2px;
+}
+
+.carousel-indicators {
+      bottom:-55px;
+}
+.carousel-indicators li {
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: #666;
+}
+
+.imagentrabajos {
+width: -15px;
+}
+.border-secondary{
+	color: #fff;
+}
+

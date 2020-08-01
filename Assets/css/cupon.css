@@ -1,0 +1,12 @@
+body{
+	font-family:'Roboto', sans-serif;
+}
+
+.logo{
+	height: 3rem;
+}
+
+.texto{
+	font-size: 1rem;
+	vertical-align: middle;
+}

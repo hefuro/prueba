@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap version 4.5-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ 	<!-- tipografia raleway google font-->
+    <!-- Lobster-->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Cabin-->
+     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+ 	<!-- llamado de iconos online www.fontawesome.com-->
+ 	<link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"crossorigin="anonymous">
+ 	 <!-- Llamado de nuestra hoja de estilos-->
+ 	<link rel="stylesheet"href="assets/css/ricomida.css">
+    <!--Titulo en la pestaña del navegador-->
+	<title>Desafio Ricomida</title>
+    <!-- Llamaso al icono en la pestaña del navegador "favicon"-->
+    <link rel="icon" href="assets/img/icono-comida.png" type="image/png"/>
+</head>
+
+
+
+<body>
+
+<!-- Barra de Nav. con logo incorporado-->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top text-white" >
+	         <div class="container">
+		        <a class="navbar-brand" href="#"><h3 class="lobster">Ricomida</h3></a>
+		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	         	<span class="navbar-toggler-icon"></span>
+	        	</button>
+	        	<div class="collapse navbar-collapse" id="navbarNav">
+		          <ul class="navbar-nav ml-auto"> <!--ml-auto= margen izquierdo automatico-->
+		            <li class="nav-item active">
+		              	<a class="nav-link" href="#">Inicio</a>
+		            </li>
+		            <li class="nav-item active">
+		            	<a class="nav-link" href="#">Recetas</a>
+		            </li>
+		            <li class="nav-item active">
+		              	<a class="nav-link" href="#">Nosotros</a>
+		            </li>
+		             <li class="nav-item active">
+		              	<a class="nav-link" href="#">Contacto</a>
+		            </li>
+		            <li class="nav-item active">
+		              	<a class="nav-link" href="index.html">hefuro.cl</a>
+		            </li>
+		          </ul>
+	       		</div>
+	        </div>
+	</nav>
+
+
+
+<!-- Primer bloque, foto y texto a la derecha-->
+
+<section class="container mt-5 pt-5 text-center">
+
+  <div class="row container">
+
+    <div><!--columna 1 imagen-->
+      <img src="assets/img/principal.jpg" alt="imagen de una pizza solo queso">
+    </div>
+
+    <div class="col-sm ml-3 mt-3 text-dark text-left"><!--columna 2 textos-->
+			<h2 class="text-1 text-dark">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h2>
+			<hr>
+			<h4 class="text-2 text-dark">110 MIN / 6 A 8 PORCIONES</h4>
+		
+		<div class="py-2"><!-- caja para los dos botones-->
+			
+			<button type="button" class="btn btn-outline-dark text-3 mr-3 mt-1" data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar a tu correo">Enviar por correo</button>
+			
+			<button type="button" class="btn btn-outline-dark text-3 mt-1" data-toggle="tooltip" data-placement="right" title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
+
+	
+  		</div>
+    
+    </div>
+
+  </div>
+
+</section>
+
+<!-- EN ESTA PARTE VA EL CARRUSEL-->
+
+
+<section class="container border-bottom border-secondary pt-4 pb-5 d-none d-lg-block d-xl-block">
+	<div id="blogCarousel" class="carousel slide" data-ride="carousel">
+	 	<!-- Botones de desplazamiento-->
+	 	<ol class="carousel-indicators">
+		   	<li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#blogCarousel" data-slide-to="1"></li>
+		 </ol>
+
+
+		 <div class="carousel-inner">
+
+		 		<div class="carousel-item active text-center my-5">
+
+			 			<div class="row">
+
+				 				<div class="col-3">
+				 					<div class="imagentrabajos">
+				 						<img src="assets/img/slider-1.png"/>
+				 					</div>
+				 				</div>
+
+				 				<div class="col-3">
+				 					<div class="imagentrabajos">
+				 						<img src="assets/img/slider-2.png">
+				 					</div>
+				 				</div>
+
+				 				<div class="col-3">
+				 					<div class="imagentrabajos">
+				 						<img src="assets/img/slider-3.png">
+				 					</div>
+				 				</div>
+				 				
+				 				<div class="col-3">
+				 					<div class="imagentrabajos">
+				 						<img src="assets/img/slider-4.png">
+				 					</div>
+				 				</div>
+			 				
+			 			</div>
+		 			
+		 		</div>
+		 	
+		 	
+
+			 	<div class="carousel-item text-center my-5">
+			 		
+			 		<div class="row">
+
+					 			<div class="col-3">
+							 		<div class="imagentrabajos">
+							 			<img src="assets/img/slider-5.png">
+							 		</div>
+							 	</div>
+
+							 	<div class="col-3">
+							 		<div class="imagentrabajos">
+							 			<img src="assets/img/slider-6.png">
+							 		</div>
+							 	</div>
+
+							 	<div class="col-3">
+							 		<div class="imagentrabajos">
+							 			<img src="assets/img/slider-7.png">
+							 		</div>
+							 	</div>
+
+							 	<div class="col-3">
+							 		<div class="imagentrabajos">
+							 			<img src="assets/img/slider-8.png">
+							 		</div>
+							 	</div>
+
+
+			 		</div>
+
+				</div>
+		
+		</div>
+	</div>
+
+
+</section>
+
+	
+
+
+
+
+<!-- Recetario-->
+<section class="container mt-5 pt-5">
+
+  <div class="container row">
+
+    <div class="col-sm ml-5 mt-5 text-dark text-left align-left"><!--columna 2 textos-->
+			<p class="text-2">INGREDIENTES<br><div><hr class="ancho"></div><br>Masa <br><br>20 gr de levadura seca instantánea<br> 1 cucharadita de azúcar<br> 500 ml agua tibia<br> 100 ml aceite vegetal<br> 4 cucharadas de aceite de oliva<br> 65 gr harina de maíz fina (chuchoca)<br> 2 cucharaditas de sal<br> 625 gr harina<br><br> Salsa<br><br> 5 cucharadas de aceite de oliva<br> ½ cebolla picada en cubos finos<br> 2 cucharaditas de sal<br> 3 cucharadas de Orégano Gourmet<br> 1 ½ cucharadas de Albahaca Gourmet<br> 2 tarro de tomates en cubos al natural<br> 2 cucharaditas de azúcar<br><br> Relleno<br><br> ½ cebolla, en cubos<br> 500 gr hojas de espinacas picadas<br> 400 gr de champiñones, laminados<br> 300 gr de queso mozarella<br> 4 cucharadas queso parmesano</p>
+    </div>
+
+     <div class="col-sm ml-5 mt-5 text-dark text-left"><!--columna 2 textos-->
+			<p class="text-2">PREPARACIÓN<br><div><hr class="ancho"></div><br>1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.<br><br> 2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.<br><br> 3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar.<br><br> 4. Calentar el horno a 220C.<br><br> 5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado.<br><br> 6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+	<div class="container text-center my-5">
+		<hr>
+	</div>
+
+
+<!-- Recetas relacionadas-->
+
+	<section class="container text-center mb-5">
+
+		<h2 class="text-1 mb-5 text-dark">RECETAS RELACIONADAS</h2>
+
+		<div class="card-deck">
+      <!-- Primera columna-->
+		    <div class="card">
+		      <div>
+		          <img class="card-img-top" src="assets/img/recipe-card-1.png" alt="imagen panqueques con manjar y crema">
+		      </div>
+		      <div class="card-body">
+		        <h3 class="card-title text-4 text-left text-dark">PANQUEQUES CON  MANJAR</h3>
+		        <p class="card-text text-3 text-left text-dark">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+		      </div>
+		    </div>
+		    <!-- Segunda columna-->
+		    <div class="card">
+		          <div>
+		              <img class="card-img-top" src="assets/img/recipe-card-2.png" alt="imagen de tiramisú">
+		          </div>
+		      <div class="card-body">
+		        <h3 class="card-title text-4 text-left text-dark">TIRAMISÚ</h3>
+		        <p class="card-text text-3 text-left text-dark">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+		      </div>
+		    </div>
+		       <!-- tercera columna-->
+		    <div class="card">
+		      <div>
+		          <img class="card-img-top card-img-top" src="assets/img/recipe-card-3.png" alt="imagen de plateada">
+		      </div>
+		      <div class="card-body">
+		        <h3 class="card-title text-4 text-left text-dark">PLATEADA</h3>
+		        <p class="card-text text-3 text-left text-dark">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+		      </div>
+		    </div>
+		    </div>
+
+	</section>
+
+
+	<!-- Sección de contacto-->
+
+
+	<section class="container-fluid bg-danger py-5">
+
+		<h2 class="text-1 text-white text-center mt-5 pt-5">SUSCRÍBETE EN NUESTRO NEWSLETTER</h2>
+		<div>
+		<p class="text-4 text-white text-center pb-5">y obtén las mejores recetas que tenemos en Ricomida<img src="assets/img/ricomida-logo.png" class="alto ml-2"></img></p>
+		</div>
+		<div class="text-center mb-5 pb-5">
+		<button type="button" class="btn btn-outline-light text-3"><h5 class="text-3 mx-5">Empezar</h5></button>
+		</div>
+
+	</section>
+
+
+<!-- Sección de footer-->
+<footer class="container-fluid text-center bg-dark text-white pb-1">
+	<h3 class="lobster pt-2">Ricomida</h3>
+
+</footer>
+
+
+
+
+
+<!-- INSTRUCIONES PARA EL NAVEGADOR... NO SE TOCA -->
+<!--jQuery 3.3.1-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<!--Popper JS 1.14.3-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<!--Bootstrap JS 4.1.3-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<!--llamado al scrip-->
+<script src="assets/js/ricomida.js"></script>
+</body>
+
+
+</html>

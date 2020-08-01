@@ -1,0 +1,126 @@
+body{
+    text-align: center;
+    color: #000F08;
+    font-family: 'Open Sans', sans-serif;
+}
+.oscuro{
+    background: #000F08;
+    color: #FFFFFF;
+}
+.oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.sweet-brown{
+    background:#A4452C;
+    text-align: left;
+    color:#ffffff;
+    padding: 50px;
+    white-space: nowrap;
+}
+.hero-section{
+    text-align: right;
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.125em 0.125em#707070;
+    padding: 6.125rem 3.125rem;
+    margin-top: 109px;
+}
+body*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+section, footer{
+    margin-top: 75px;
+}
+footer{
+    padding: 50px;
+}
+.charla-texto, .charla-speaker{
+    display: inline-block;
+}
+article{
+    display: inline-block;
+}
+.centrado{
+    width: 75%;
+    margin: 0 auto;
+}
+.charla-speaker{
+    width: 25%;
+    vertical-align: middle;
+}
+.charla-texto  {
+    width: 72.5%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal;
+}
+.evento{
+    width: 30%;
+}
+.evento img{
+width: 75%;
+}
+h1{
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 2em;
+    }
+h3 {
+    font-size: 2em;
+    }
+.subtitulo, h4, h5 {
+    font-weight: 400;
+    }
+h4{
+     font-size: 1.75em;
+}
+h5{
+    font-size: 1.25em;
+}
+#ubicacionh2 {
+    margin: 1em auto;
+}
+.sweet-brown h3, .sweet-brown h5 {
+    margin-bottom: 0.1em;
+}
+nav{
+    text-align: left;
+    padding: 1.25rem;
+    position: fixed;
+    width: 100vw; /* vw es la pantalla*/
+    top:0px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin:0 1em;
+    vertical-align: middle;
+}
+.icono{
+    fill:#ffffff;
+    width: 2rem;
+}
+footer i{
+    margin: 0rem 2rem  0rem 2rem;
+}
+
+.boton1{
+    text-decoration: none;
+    color: #000000;
+}
+.right{
+  text-align: right;
+  height: 2rem;
+}
